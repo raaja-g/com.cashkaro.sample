@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="122586" started-at="2019-01-09T21:24:26Z" finished-at="2019-01-09T21:26:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="122586" started-at="2019-01-09T21:24:26Z" finished-at="2019-01-09T21:26:29Z">
+      <class name="com.cashkaro.sample.driverScript.driverScript">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.cashkaro.sample.driverScript.driverScript@67a20f67]" name="setUpSuite" is-config="true" duration-ms="9491" started-at="2019-01-10T02:54:17Z" finished-at="2019-01-10T02:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="searchBook()[pri:1, instance:com.cashkaro.sample.driverScript.driverScript@67a20f67]" name="searchBook" duration-ms="93612" started-at="2019-01-10T02:54:26Z" finished-at="2019-01-10T02:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBook -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cashkaro.sample.driverScript.driverScript@67a20f67]" name="afterMethod" is-config="true" duration-ms="774" started-at="2019-01-10T02:56:28Z" finished-at="2019-01-10T02:56:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBook status=SUCCESS method=driverScript.searchBook()[pri:1, instance:com.cashkaro.sample.driverScript.driverScript@67a20f67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownbrowser()[pri:0, instance:com.cashkaro.sample.driverScript.driverScript@67a20f67]" name="tearDownbrowser" is-config="true" duration-ms="262" started-at="2019-01-10T02:56:34Z" finished-at="2019-01-10T02:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownbrowser -->
+      </class> <!-- com.cashkaro.sample.driverScript.driverScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
